@@ -1,0 +1,11 @@
+.container{
+    display:grid;
+    grid-template-columns: repeat(5, 20%);
+    text-align:center;
+    grid-template-rows: repeat(20, 5%);
+    justify-content: space-between;
+}
+.todo{
+    border:1px solid black;
+}
+
